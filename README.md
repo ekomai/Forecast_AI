@@ -3,72 +3,39 @@ buildingai.elementsofai.com
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+Forecast dynamic relationship between renewable energy generation (based on weather forest) and energy storage system usage 
+in order to optimize energy savings and secure funding for additional renewable energy systems.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+The aim is to solve funding shortage for the purchase of (additional) energy storage systems as well as to expand renewable energy systems. 
+It is a common problem not being able to forecast more precisely and optimize energy costs, 
+especially for mid-sized manufacturing and R&D companies as well as for small local government with onsite energy sources. 
+My interest is largely due to personal involvement and if solved successfully, it can address these 2 common energy related bottlenecks.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+Energy management team members (of a company and local government), energy storage providers and renewable energy system providers will be primary users. 
+The solution may affect the team members who are directly responsible for monitoring and maintaining energy system hardware in terms of implementing related software and hardware solution.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Weather forecast data, past, present and future, are available online at various costs and resolutions.
+Energy billing rates and their changes are available for both long and short terms by the energy distribution system operators.
+Detailed specification of energy storage system is available from the manufacturer.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The solution cannot guarantee that the energy savings will meet the expectation.
+The solution can forecast different levels of funding scenarios but the desired goal may not be reached in the end.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+If successful, a number of companies and local governments will grow to form a network, 
+which in turn will require expansion and improvements of Forecast system to bring further benefits.
+Initially, various basic methods will be studied to verify suitability for the desired solution. 
+It is most likely that this will be the first and most challenging task of the next step.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Virtual power plant and Demand Response is an inspiration and will be studied as precedents from the point of view of local adaptation of such technologies.

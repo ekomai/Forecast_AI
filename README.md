@@ -1,10 +1,11 @@
 # Forecast_AI
 buildingai.elementsofai.com
+Building AI course project
 
 ## Summary
 
 Forecast dynamic relationship between renewable energy generation (based on weather forest) and energy storage system usage 
-in order to optimize energy savings and secure funding for additional renewable energy systems.
+in order to optimize energy savings and secure funding for renewable energy systems expansion.
 
 ## Background
 
@@ -24,6 +25,8 @@ Weather forecast data, past, present and future, are available online at various
 Energy billing rates and their changes are available for both long and short terms by the energy distribution system operators.
 Detailed specification of energy storage system is available from the manufacturer.
 
+A number of methods available from logistic regression to neural networks will be reviewed for compatibility / adaptability.
+
 ## Challenges
 
 The solution cannot guarantee that the energy savings will meet the expectation.
@@ -31,7 +34,7 @@ The solution can forecast different levels of funding scenarios but the desired 
 
 ## What next?
 
-If successful, a number of companies and local governments will grow to form a network, 
+If successful, a number of companies and local government will grow to form a network, 
 which in turn will require expansion and improvements of Forecast system to bring further benefits.
 Initially, various basic methods will be studied to verify suitability for the desired solution. 
 It is most likely that this will be the first and most challenging task of the next step.

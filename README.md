@@ -1,5 +1,5 @@
 # Forecast_AI
-buildingai.elementsofai.com
+buildingai.elementsofai.com  
 Building AI course project
 
 ## Summary

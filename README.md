@@ -4,7 +4,7 @@ Building AI course project
 
 ## Summary
 
-Forecast dynamic relationship between renewable energy generation (based on weather forest) and energy storage system usage 
+Forecast dynamic relationship between renewable energy generation (based on weather forecast) and energy storage system usage 
 in order to optimize energy savings and secure funding for renewable energy systems expansion.
 
 ## Background

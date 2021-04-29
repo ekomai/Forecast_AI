@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+  color: #F00;
+
+}
+
+article {
+  width: 700px;
+  margin: 0 auto;
+  padding: 55px;
+  background-color: #FED;
+}
+
+article h1 {
+  border-bottom: solid 1px #999;
+  font-size: 45px;
+  color: #0DF;
+}
+
+article section ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+article section ul li {
+  width: 200px;
+  margin-bottom: 20px;
+  background-color: #999;
+}
+
+article section ul li a {
+  display: block;
+  color: #FFF;
+  line-height: 2.8em;
+  text-align: center;
+  text-decoration: none;
+}
+
+article p img {
+  width: 120px;
+}
+
+.animal {
+  width: 400px;
+}
+
+
+section dl {
+  width: 400px;
+  color: #999;
+  font-size: 20px;
+}
+section dt {
+  clear: both:
+  float: left;
+  width: 200px;
+}
+
+section dd {
+  float: left;
+}
